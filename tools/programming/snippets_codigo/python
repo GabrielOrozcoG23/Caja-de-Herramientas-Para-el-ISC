@@ -1,1 +1,74 @@
+# Ejemplos de Código Python con Explicaciones
 
+Este documento proporciona varios ejemplos de código Python, desde conceptos básicos hasta intermedios, con explicaciones para cada uno.
+
+## 1. Hola Mundo
+
+```python
+print("Hola Mundo!")
+```
+
+**Explicación:** Este es el ejemplo más básico en Python. La función `print()` muestra el texto entre comillas en la pantalla.
+
+## 2. Variables y Tipos de Datos
+
+```python
+nombre = "Ana"
+edad = 25
+altura = 1.65
+
+print(f"{nombre} tiene {edad} años y mide {altura} metros.")
+```
+
+**Explicación:** 
+- Definimos variables de diferentes tipos: `nombre` (string), `edad` (int), `altura` (float).
+- Usamos una f-string (cadena formateada) para combinar texto y variables en la salida.
+
+## 3. Condicionales
+
+```python
+temperatura = 28
+
+if temperatura > 30:
+    print("Hace calor")
+elif temperatura > 20:
+    print("La temperatura es agradable")
+else:
+    print("Hace frío")
+```
+
+**Explicación:**
+- Utilizamos una estructura if-elif-else para tomar decisiones basadas en el valor de `temperatura`.
+- El programa evaluará cada condición en orden y ejecutará el bloque de código correspondiente a la primera condición verdadera.
+
+## 4. Bucles
+
+```python
+for i in range(5):
+    print(f"Número: {i}")
+```
+
+**Explicación:**
+- Este es un bucle `for` que se ejecutará 5 veces.
+- La función `range(5)` genera una secuencia de números del 0 al 4.
+- En cada iteración, el valor de `i` se actualiza y se imprime.
+
+## 5. Funciones
+
+```python
+def saludar(nombre):
+    return f"Hola, {nombre}!"
+
+mensaje = saludar("Carlos")
+print(mensaje)
+```
+
+**Explicación:**
+- Definimos una función llamada `saludar` que toma un parámetro `nombre`.
+- La función devuelve un saludo personalizado usando una f-string.
+- Llamamos a la función con el argumento "Carlos" y guardamos el resultado en `mensaje`.
+- Finalmente, imprimimos el mensaje.
+
+## Conclusión
+
+Estos ejemplos cubren algunos de los conceptos fundamentales de Python. Para profundizar en tu aprendizaje, considera practicar con estos ejemplos y explorar conceptos más avanzados como listas, diccionarios, manejo de excepciones y programación orientada a objeto
